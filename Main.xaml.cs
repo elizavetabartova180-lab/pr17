@@ -16,15 +16,13 @@ using System.Windows.Shapes;
 namespace Pizza_Bartova
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для Main.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Main : Page
     {
-        public MainWindow()
+        public Main()
         {
             InitializeComponent();
-            frame.Navigate(new MainWindow());
         }
-        
     }
 }
